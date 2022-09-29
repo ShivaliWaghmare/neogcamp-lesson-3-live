@@ -8,7 +8,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-/** container **/
+hr{
+    margin: 3rem 0rem;
+} /**margin:2rem-This is for top and bottom 0rem-This is for right and left/** container **/
 .container{
     paddding-left: 1rem;
     padding-right: 1rem;
@@ -20,7 +22,11 @@ body{
 /** Links **/
 .links{
     text-decoration:none;
-    padding:0.5rem 1rem;
+    padding:0.5rem 1rem;}
+
+.link-shivali{
+    background-color: black;
+    border-radius: 0.5rem;
 }
 .primary-link{ background-color: #7e22ce ;
     color:var(--primary-color);
@@ -36,3 +42,13 @@ body{
     border: 1px solid var(--primary-color);
 }
 /**look into BEM naming convection for css **/
+
+/** LISTS **/
+
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+ padding: 0rem 0.5rem;
+}
