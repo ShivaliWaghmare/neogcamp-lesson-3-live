@@ -15,8 +15,15 @@ body {
 hr {
     margin: 3rem 0rem;
 }
+/**margin:2rem-This is for top and bottom 0rem-This is for right and left**/
 
-/**margin:2rem-This is for top and bottom 0rem-This is for right and left/** container **/
+/** Spaces **/
+.margin-md{
+      margin:2rem
+}
+
+
+/** container **/
 .container {
     paddding-left: 1rem;
     padding-right: 1rem;
@@ -29,8 +36,10 @@ hr {
 
 /** Links **/
 .links {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+ 
 }
 
 .link-shivali {
@@ -96,6 +105,7 @@ hr {
 .hero {
     padding: 2rem;
     text-align: center;
+    padding-top: 5rem;
 }
 
 .hero .hero-image {
@@ -133,6 +143,10 @@ hr {
 }
 .footer .link  {
     color: white;
+}
+.footer .footer-header{
+    font-family: bold;
+    font-size: larger;
 }
 .footer ul{
     padding-inline-start: 0px;

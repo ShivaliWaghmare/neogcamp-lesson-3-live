@@ -4,119 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-   
-    <link href="styles.css" rel="stylesheet" />
+    <title>Home | ShivaliWaghmare</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>Shivali's component library</h1>
-    <p >I am attending neog.camp and I want to make a library which would contain all my projects
-      to look good and consistent.
-    </p>
-    <hr>
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>Let me show you the normal text. This is free flowing and will wrap at
-        the end like a paragraph
-    </p>
-    <p>This paragraph will have <strong>bold</strong> text</p>
-    <small>This is relatively smaller text</small>
-<hr>
-    <h2>@Containers</h2>
-    <p>There are two types of Containers</p>
-      <p>  1] Fluid container
-        2] Center container
-    </p>
-    <h3>Fluid container</h3>
-    <div class="container">This is the fluid container and it will go till the end at the page</div>
+  
+    <nav class="navigation container">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="index.html">home</a>
+            </li>
+    <li class="list-item-inline">
+        <a  class="link" href="/projects.html">projects</a>
+    </li>
+    <li class="list-item-inline">
+        <a  class="link" href="/blogs.html">blogs</a>
+    </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <img class="hero-image" src="images/hero.svg"/>
+        <h1 class="hero-heading">Shivali Waghmare the <span style="color:var(--primary-color)">web developer</span></h1>
+    </header>
+    <section class="section ow">
+        <div class="contaier container-center"> 
+            <h1>technologies</h1>
+         <p >I'm familiar with HTML,CSS3,Git,Javascript,NodeJS and Wed Hosting</p>
+     </div></section>
 
-    <h3>Center container</h3>
-    <div class="container container-center">This is the center container. It will go till a given width and center content</div>
-<hr>
-<h2>@Links</h2>
-
-<a class="links link-shivali" href="https://google.com">Shivali</a>
-<a class="links primary-link" href="/">Primary link</a>
-<a class="links link-secondary" href="/">Secondary link</a>
-
-<hr>
-
-
-<h2>@Lists</h2>
-<h3>Unordered lists</h3>
-<p>This lists will not have the bullet</p>
-<ul class="list-non-bullet">
-    <li >Item one</li>
-    <li >Item two</li>
-    <li >Item three</li>
-</ul>
-
-<h3>Unordered inline list</h3>
-<ul class="list-non-bullet">
-    <li class="list-item-inline">Inline Item One</li>
-    <li class="list-item-inline">Inline Item Two</li>
-    <li class="list-item-inline">Inline Item Three</li>
-</ul>
-
-<h3>Reversed ordered lists</h3>
-<ol reversed>
-    <li>milk</li>
-<li>eggs</li>
-<li>bread</li>
-</ol>
-<hr>
-<h2>@nav</h2>
-<nav class="navigation container">
-    <div class="nav-brand">TheBrandName</div>
-    <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-            <a class="link link-active" href="/">home</a>
-        </li>
-<li class="list-item-inline">
-    <a  class="link" href="/">products</a>
-</li>
-<li class="list-item-inline">
-    <a  class="link" href="/">about</a>
-</li>
-    </ul>
-</nav>
-
-<hr>
-<h2>@header</h2>
-<header class="hero">
-    <img class="hero-image" src="images/hero.svg"/>
-    <h1 class="hero-heading">Shivali Waghmare the <span style="color:var(--primary-color)">web developer</span></h1>
-</header>
-<hr>
-<h2>@Section</h2>
-
-<section class="section">
-    <div class="container container-center">
-    <h1>White Section</h1>
-    <p > We are an open community of developers, technical writers, and learners building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute, and each person who does contribute makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you. </div></section>
-
-<section class="section ow">
-   <div class="contaier container-center"> <h1>off white section</h1>
-    <p >We are an open community of developers, technical writers, and learners building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute, and each person who does contribute makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
-</div></section>
-<hr>
-
-<h1>@Footers</h1>
-<footer class="footer container">
-    <div class="footer-header">Some small heading inside footer</div>
-    <ul class="social-links list-non-bullet">
-        <li class="list-item-inline"><a class="link"  href="/">socialone</a></li>
-        <li class="list-item-inline"><a class="link"  href="/">socialtwo</a></li>
-        <li class="list-item-inline"><a class="link"  href="/">socialthree</a></li>
-    </ul>
-</footer>
+     <section class="section">
+        <div class="contaier container-center"> 
+            <h1>projects</h1>
+         <p >Here i'll be showcasing my projects and thus, you can see my projects hosted online</p>
+         <a class="links primary-link" href="/">See Projects</a>
+     </div></section>
+ 
+     <section class="section ow">
+        <div class="contaier container-center"> 
+            <h1>blogs</h1>
+         <p >Here i'll be documenting my web development learning journey.I'll also share my day to day life experience</p>
+         <a class="links link-secondary" href="/">Read Blogs </a>
+     </div></section>
 
 
-
-
-
-<div style="height:40vh">
-</div>
+     <footer class="footer container">
+        <div class="footer-header">Social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link"  href="https://github.com/shivaliwaghmare">gitHub</a></li>
+            <li class="list-item-inline"><a class="link"  href="/">twitter</a></li>
+            <li class="list-item-inline"><a class="link"  href="/">Linkedin</a></li>
+        </ul>
+    </footer>
+    
 </body>
 </html>
